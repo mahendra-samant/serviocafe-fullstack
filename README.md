@@ -47,7 +47,7 @@ Monitor orders and manage their progress through the cafe workflow.
 View the checkout workflow and place orders using the integrated payment flow.
 
 ![ServioCafe Checkout](screenshots/checkout.png)
-
+![ServioCafe Checkout](screenshots/order.png)
 
 ## ✨ Features
 
