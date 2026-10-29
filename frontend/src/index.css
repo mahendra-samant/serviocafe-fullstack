@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  
+  color: #213547; 
+  background-color: #ffffff; 
+  
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+@keyframes float {
+  0% { 
+    /* Starts at its original position */
+    transform: translate(0px, 0px); 
+  }
+  50% { 
+    /* Moves the element up 10 pixels */
+    transform: translate(0px, -10px); 
+  }
+  100% { 
+    /* Returns to the original position */
+    transform: translate(0px, 0px); 
+  }
+}
+
+/* 2. Create the Utility Class to Apply the Animation */
+.animate-float {
+  /* Apply the 'float' keyframe over 4 seconds,
+     using an ease-in-out timing function, and repeat infinitely. */
+  animation: float 4s ease-in-out infinite;
+}
